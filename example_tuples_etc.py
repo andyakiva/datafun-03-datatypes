@@ -122,6 +122,8 @@ setD = setA & setB
 # set difference
 setE = setA - setB
 
+print(f"setc = {setC}. setD = {setD}, setE = {setE}")
+
 # sets are often used to remove duplicates from a list
 # after gettin the set, convert it back to a list with list() or []
 listWords = ["apple", "banana", "apple", "pear", "banana", "orange"]
@@ -211,6 +213,6 @@ print(word_counts_dict)
 # Say "I want word:count for each word in word_list"
 # Remember to wrap the result in curly braces
 word_counts_dict = {word: word_list.count(word) for word in word_list}
-
+print(word_counts_dict)
 # Spend most of your practice on comprehensions - they are
 # key to transforming data in Python.

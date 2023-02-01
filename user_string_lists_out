@@ -1,0 +1,71 @@
+"""
+
+!!!!!!!!!!!!!!!!!
+Here for part 1
+!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+Race: ['black', 'white', 'asian', 'native', 'other', 'refuse']
+Ethnicity: ['hispanic', 'not hispanic', 'other', 'refuse']
+Religion: ['jewish', 'christian', 'muslim', 'hindu', 'pagan', 'atheist', 'other', 'refuse']
+Gender: ['man', 'woman', 'nonbinary', 'other', 'refuse']
+Orientation: ['hetersexual', 'homosexual', 'bisexual', 'asexual', 'queer', 'other', 'refuse']
+
+How many race options are there?
+This program recognizes 6 races for demographic statistics.
+What all options for identity does this program recognize?
+{'woman', 'christian', 'queer', 'refuse', 'jewish', 'homosexual', 'pagan', 'other', 'native', 'muslim', 'black', 'not hispanic', 'man', 'asexual', 'hetersexual', 'asian', 'white', 'hindu', 'atheist', 'bisexual', 'nonbinary', 'hispanic'}
+
+This program offers 22 identity options. You select 5.
+You can select other and refuse multiple times
+
+Race and ethnicity data for three people could look like this:
+
+Races: ['black', 'black', 'white']
+Ethnicities: ['hispanic', 'refuse', 'refuse']
+
+We can combine these into matched data as a tuple.
+(('black', 'hispanic'), ('black', 'refuse'), ('white', 'refuse'))
+
+
+
+
+!!!!!!!!!!!!!!!!!
+Here for part 2
+!!!!!!!!!!!!!!!!!!!!!
+
+
+
+Let's learn about demographic data.
+
+    This program is going to assaign you random demographics.
+    These graphics are not in any way tied to your real life.
+    They are nothing more than coincidence if they overlap.
+
+    Enjoy your new identity!
+    
+    
+Congratulations! 
+
+You are now a asian asexual hispanic pagan man!
+
+
+
+!!!!!!!!!!!!!!!!!
+Here for part 3
+!!!!!!!!!!!!!!!!!!!!!
+
+
+With new and ever expanding understandings of gender, it ist important
+to not let demographic data sets miss people. This is why it's a good idea
+to always include an option for other.
+
+As an example, let's see how many genders starting with the letter A we can find.
+
+['Agender', 'Abimegender', 'Adamas', 'Aerogender', 'Aesthetigender', 'Affectugender', 'Agenderflux', 'Alexigender', 'Aliusgender', 'Amaregender', 'Ambigender', 'Ambonec', 'Amicagender', 'Androgyne', 'Anesigender', 'Anogender', 'Anongender', 'Antegender', 'Anxiegender', 'Apagender', 'Apconsugender', 'Astergender', 'Autigender', 'Autogender', 'Axigender']
+
+
+That's a lot of genders! 25 in fact!
+"""

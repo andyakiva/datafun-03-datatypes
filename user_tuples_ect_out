@@ -1,0 +1,23 @@
+"""
+Tuples and More
+create tuples
+participant1 = ('black', 'hispanic', 'jewish', 'heterosexual', 'other')
+participant2 = ('refuse', 'refuse', 'jewish', 'bisexual', 'woman')
+
+#create sets
+
+{'heterosexual', 'hispanic', 'jewish', 'other', 'black'}
+{'jewish', 'woman', 'bisexual', 'refuse'}
+
+Find set union and intersection
+
+{'jewish'}
+{'heterosexual', 'refuse', 'hispanic', 'bisexual', 'jewish', 'woman', 'other', 'black'}
+
+Use python to count words in txt file
+
+
+{'how': 1, 'much': 3, 'wood': 4, 'would': 4, 'a': 4, 'woodchuck': 4, 'chuck': 5, 'if': 2, 'could': 3, 'he': 3, 'as': 4, 'and': 1}
+
+
+"""

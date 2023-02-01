@@ -1,4 +1,7 @@
 """
+Andy Asher 
+01/30/2023
+PRoject 3
 Examples of using string lists
 """
 
@@ -47,18 +50,22 @@ unique_word_ct = len(unique_words)
 
 # Create a random sentence
 # e.g. "The angry dog runs quickly."
-sentence = (
+
+def sentence_get():
+    sentence = (
     f"The {random.choice(list_adjectives)} {random.choice(list_nouns)} "
-    f"{random.choice(list_verbs)} {random.choice(list_adverbs)}."
-)
-print()
-print(sentence)
-print()
-print("To see more results, add print statements to the code.")
-print("To play a continuous game, modify the code.")
-print("Use these examples to learn lists and transformations.")
-print("Then apply what you know to your domain.")
-print()
+    f"{random.choice(list_verbs)} {random.choice(list_adverbs)}.")
+
+    return sentence
+    
+playerchoice = input("Do you want to see a sentence? y|n ")
+while playerchoice == "y":
+    print(sentence_get())
+    playerchoice = input("Do you want to see a sentence? y|n ")
+
+if playerchoice == "n":
+    print("Okay. Bye!")
+
 
 
 # Game bot for rock, paper, scissors ................
@@ -73,9 +80,19 @@ def get_winner_message(userguess, botguess):
             return "I win!"
         else:
             return "You win!"
+    elif userguess == "paper":
+        if botguess == "rock":
+            return "I win!"
+        else:
+            return "You win!"
+    elif userguess == "scissors":
+        if botguess == "paper":
+            return "I win!"
+        else:
+            return "You win!"
 
 
-ready_for_continous_game = False  # change this when ready
+ready_for_continous_game = True  # change this when ready
 
 while True:
     if not ready_for_continous_game:

@@ -1,0 +1,44 @@
+
+
+==============================================================
+==============================================================
+
+ Welcome!
+
+ It's 2023-01-29 at 09:27 PM
+
+ This file is running on:    posix Linux 5.14.0-1056-oem
+ 
+ The Python version is:      3.8.10
+ 
+ The Python interpreter is at:
+ /bin/python3
+
+ The active environment should be either conda OR pip (one should be None):
+
+     Active conda env is: base
+     Active pip env is:   None
+ 
+ The path to the active virtual environment is:
+
+ /usr
+ 
+ The Current Working Directory (CWD) where this command was launched is:
+
+ /home/andy/Documents/DataAnalytics/datafun-03-datatypes
+ 
+ The absolute path to the data directory is:
+
+ /home/andy/Documents/DataAnalytics/datafun-03-datatypes/
+ 
+ The absolute path to this source directory is:
+
+ /home/andy/Documents/DataAnalytics/datafun-03-datatypes
+ 
+ The absolute path to this file is:
+
+ /home/andy/Documents/DataAnalytics/datafun-03-datatypes/about.py
+ 
+==============================================================
+==============================================================
+
